@@ -1,2 +1,23 @@
+---
+description: >-
+  Digger enables comment based operations related to terraform collaboration and
+  deployment.
+---
+
 # CommentOps
 
+#### Supported commands
+
+`digger apply` - will check RP locks, run terraform apply on all projects affected in the current PR, unlock projects when necessary and possibly merge PR depending on configuration.
+
+`digger plan` - will lock and check RP locks, run terraform plan on all projects affected in the current PR
+
+`digger lock` - will lock projects in current PR
+
+`digger unlock` - will unlock projects in current PR. It's useful to circumvent any trouble related to locking of projects.
+
+#### Supported flags
+
+`digger apply/plan`
+
+* **-p**  enables user to run the command for a particular project, e.g. `digger plan -p staging`&#x20;

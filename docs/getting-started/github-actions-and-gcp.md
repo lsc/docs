@@ -1,4 +1,4 @@
-# Github Actions and GCP
+# Github Actions + GCP
 
 This is a step-by-step guide how to set up Digger in your Github repository with terraform code for GCP. If you'd rather fork a sample repository, or if are using Terragrunt or Workspaces - check out [other tutorials](https://diggerhq.gitbook.io/digger-docs/getting-started)
 
@@ -30,7 +30,7 @@ In your new GCP service account:
 * Download json
 * Copy contents of the json file
 
-Thenn in Github
+Then in Github
 
 * Go to Settings → Secrets and Variables
 * Click “New Repository Secret” button

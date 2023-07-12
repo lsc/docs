@@ -5,7 +5,6 @@ Main components:
 * CLI that can be run both locally and in your CI system
 * Github Action
 * DynamoDB table for code-level locks (auto-provisioned on the first run of the action)
-* Lambda function that handles webhooks from Github / Gitlab / Bitbucket
 
 ## No backend
 

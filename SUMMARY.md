@@ -17,7 +17,7 @@
   * [Using Terragrunt](configuration/with-terragrunt.md)
   * [Apply on Merge](configuration/apply-on-merge.md)
   * [Using Checkov](configuration/using-checkov.md)
-  * [Using Infracost](configuration/using-checkov-1.md)
+  * [Using Infracost](configuration/using-infracost.md)
   * [Commenting stragegies](configuration/commenting-stragegies.md)
 * [Features](docs/features/README.md)
   * [Projects](docs/features/projects.md)

@@ -1,6 +1,6 @@
 # Using Terragrunt
 
-In this tutorial we will be using a repository in order to configure a terraform pipeline [https://github.com/diggerhq/digger\_demo\_terragrunt](https://github.com/diggerhq/digger\_demo\_terragrunt). In order to use Terraform workspaces with Digger we follow the steps below:
+In this tutorial we will be using a repository in order to configure a terraform pipeline [https://github.com/diggerhq/digger\_demo\_terragrunt](https://github.com/diggerhq/digger\_demo\_terragrunt). In order to use Terragrunt with Digger we follow the steps below.
 
 Let's create our first pull request with a change and see this in action:
 
